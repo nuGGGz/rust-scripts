@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-RUST_SERVER_DIR="/home/steam/rust_server"
+RUST_SERVER_DIR="/home/rust/rust_server"
 RUST_EXECUTABLE="$RUST_SERVER_DIR/RustDedicated"
 SERVER_NAME="MyRustServer"
 SERVER_PORT=28015
