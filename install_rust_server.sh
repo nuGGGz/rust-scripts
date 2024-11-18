@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Variables
-STEAM_HOME="/home/steam"
+STEAM_HOME="/home/rust"
 STEAMCMD_DIR="$STEAM_HOME/steamcmd"
 RUST_SERVER_DIR="$STEAM_HOME/rust_server"
 STEAM_USER="anonymous"
 STEAM_APP_ID=258550
 
 # Ensure script is run as 'steam' user
-if [ "$(whoami)" != "steam" ]; then
-    echo "This script must be run as the 'steam' user. Exiting."
+if [ "$(whoami)" != "rust" ]; then
+    echo "This script must be run as the 'rust' user. Exiting."
     exit 1
 fi
 
